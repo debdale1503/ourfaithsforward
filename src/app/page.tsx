@@ -26,7 +26,7 @@ export default function Home() {
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
 
-      {/* VIDEO/ABOUT SECTION */}
+      {/* Future VIDEO/ABOUT SECTION 
       <SectionTitle
         preTitle="Watch Our Story"
         title="Learn about Our Faiths Forward"
@@ -34,8 +34,9 @@ export default function Home() {
         See how congregations and communities are moving faith from words to action. This video highlights how real people are using the toolkit for justice and compassion.
       </SectionTitle>
       <Video videoId="fZ0D0cnR88E" />
+      */}
 
-      {/* TESTIMONIALS */}
+      {/* Future TESTIMONIALS 
       <SectionTitle
         preTitle="Stories of Impact"
         title="What communities are saying"
@@ -43,6 +44,7 @@ export default function Home() {
         Congregations across the country are making a difference—hosting health workshops, advocating for justice, and welcoming their neighbors.
       </SectionTitle>
       <Testimonials />
+      */}
 
       {/* FAQ SECTION */}
       <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
