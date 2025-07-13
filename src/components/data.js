@@ -10,6 +10,44 @@ import {
 import benefitOneImg from "../../public/img/benefit-one.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
 
+import {
+  HeartIcon,
+  ShieldCheckIcon,
+  UserGroupIcon,
+  BanknotesIcon,
+  HomeModernIcon,
+  SparklesIcon,
+  GlobeAmericasIcon,
+  ArrowRightOnRectangleIcon,
+  LeafIcon,
+  HandThumbUpIcon,
+  ChartBarIcon,
+} from "@heroicons/react/24/solid";
+
+// Example for Women’s Health
+export const womensHealthBenefits = {
+  title: "How This Helps",
+  desc: "Why focusing on women’s health & safety matters for your community.",
+  image: imageWomensHealth,
+  bullets: [
+    {
+      title: "Keeps Women Safe",
+      desc: "Provides actions and talking points for urgent care in crisis.",
+      icon: <ShieldCheckIcon />,
+    },
+    {
+      title: "Unites the Community",
+      desc: "Brings all voices together around compassion and care.",
+      icon: <UserGroupIcon />,
+    },
+    {
+      title: "Grounded in Faith",
+      desc: "Faith-rooted language for effective advocacy.",
+      icon: <HeartIcon />,
+    },
+  ],
+};
+
 const benefitOne = {
   title: "Highlight your benefits",
   desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
@@ -57,4 +95,4 @@ const benefitTwo = {
 };
 
 
-export {benefitOne, benefitTwo};
+export {womensHealthBenefits, benefitOne, benefitTwo};
