@@ -31,7 +31,7 @@ import imageWomensHealth from "../../public/img/benefit-two.png";
 import imageEconomicJustice from "../../public/img/benefit-one.png";
 
 // Example for Women’s Health
-const womensHealthBenefits = {
+const womensHealthToolkit = {
   title: "Toolkit: Women's Health",
   desc: "Why focusing on women’s health & safety matters for your community.",
   image: imageWomensHealth,
@@ -54,9 +54,7 @@ const womensHealthBenefits = {
   ],
 };
 
-import imageEconomicJustice from "../../public/img/benefits-economic.png"; // Use your actual image path
-
-const economicJusticeBenefits = {
+const economicJusticeToolkit= {
   title: "How This Helps",
   desc: "Why economic justice matters for your community.",
   image: imageEconomicJustice,
@@ -126,4 +124,4 @@ const benefitTwo = {
 };
 
 
-export {womensHealthBenefits, benefitOne, benefitTwo};
+export {womensHealthToolkit, economicJusticeToolkit, benefitOne, benefitTwo};
