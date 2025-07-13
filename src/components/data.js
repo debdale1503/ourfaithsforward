@@ -25,7 +25,7 @@ import {
 } from "@heroicons/react/24/solid";
 
 // Example for Women’s Health
-export const womensHealthBenefits = {
+const womensHealthBenefits = {
   title: "How This Helps",
   desc: "Why focusing on women’s health & safety matters for your community.",
   image: imageWomensHealth,
