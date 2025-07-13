@@ -24,9 +24,9 @@ export default function Home() {
 
       {/* BENEFITS */}
       <Benefits data={economicJusticeToolkit} />   
+      <Benefits imgPos="right" data={immigrantsToolkit} />
       <Benefits imgPos="right" data={womensHealthToolkit} />
       <Benefits data={lgbtqToolkit} />
-      <Benefits imgPos="right" data={immigrantsToolkit} />
       <Benefits data={environmentToolkit} />
 
       {/* Future VIDEO/ABOUT SECTION 
