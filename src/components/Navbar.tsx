@@ -7,7 +7,6 @@ import { Disclosure } from "@headlessui/react";
 export const Navbar = () => {
   const navigation = [
     { name: "Home", href: "/" },
-    { name: "Toolkit", href: "https://toolkit.ourfaithsforward.org" },
     { name: "Stories", href: "https://stories.ourfaithsforward.org" }, // or your planned link
     { name: "About", href: "/about" },
     { name: "Contact", href: "/contact" },
@@ -32,7 +31,7 @@ export const Navbar = () => {
           </span>
         </Link>
 
-        {/* get started  */}
+        {/* get started / Toolkit button */}
         <div className="gap-3 nav__item mr-2 lg:flex ml-auto lg:ml-0 lg:order-2">
             <ThemeChanger />
             <div className="hidden mr-3 lg:flex nav__item">
