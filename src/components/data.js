@@ -142,4 +142,4 @@ const immigrantsToolkit = {
 };
 
 
-export {immigrantsToolkit, envrironmentToolkit, womensHealthToolkit, economicJusticeToolkit, lgbtqToolkit};
+export {immigrantsToolkit, environmentToolkit, womensHealthToolkit, economicJusticeToolkit, lgbtqToolkit};
