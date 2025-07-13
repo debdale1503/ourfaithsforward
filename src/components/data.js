@@ -19,15 +19,39 @@ import {
 } from "@heroicons/react/24/solid";
 
 
-import benefitOneImg from "../../public/img/benefit-one.png";
-import benefitTwoImg from "../../public/img/benefit-two.png";
+import imageLGBTQ from "../../public/img/benefit-one.png";
+import imageImmigrants from "../../public/img/benefit-two.png";
 import imageWomensHealth from "../../public/img/benefit-two.png";
 import imageEconomicJustice from "../../public/img/benefit-one.png";
+import imageEnvironment from "../../public/img/benefit-one.png";
+
+const environmentToolkit = {
+  title: "Toolkit: Environmental Stewardship",
+  desc: "Faith-based resources for protecting creation, responding to climate anxiety, and leaving the world better for those who come after us.",
+  image: imageEnvironment,
+  bullets: [
+    {
+      title: "Protects Creation",
+      desc: "Simple actions your group can take to care for the earth.",
+      icon: <FaceSmileIcon />,
+    },
+    {
+      title: "Links Faith to Action",
+      desc: "Faith-rooted reasons for environmental stewardship.",
+      icon: <ChartBarSquareIcon />,
+    },
+    {
+      title: "Builds a Legacy",
+      desc: "Inspires your community to leave the world better for future generations.",
+      icon: <CursorArrowRaysIcon />,
+    },
+  ],
+};
 
 // Example for Women’s Health
 const womensHealthToolkit = {
   title: "Toolkit: Women's Health",
-  desc: "Why focusing on women’s health & safety matters for your community.",
+  desc: "Practical tools and guidance to help faith communities ensure every woman can access safe, urgent medical care and compassion: no matter the circumstance.",
   image: imageWomensHealth,
   bullets: [
     {
@@ -49,13 +73,13 @@ const womensHealthToolkit = {
 };
 
 const economicJusticeToolkit= {
-  title: "How This Helps",
-  desc: "Why economic justice matters for your community.",
+  title: "Toolkit: Economic Justice",
+  desc: "Resources for supporting the dignity and basic needs of every person—so no one in your community is left behind.",
   image: imageEconomicJustice,
   bullets: [
     {
       title: "Builds Stability",
-      desc: "Helps ensure everyone—seniors, families, workers—can meet their basic needs.",
+      desc: "Helps ensure everyone can meet their basic needs: seniors, families, workers, immigrants, all",
       icon: <HomeModernIcon />,
     },
     {
@@ -71,51 +95,51 @@ const economicJusticeToolkit= {
   ],
 };
 
-const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
-  image: benefitOneImg,
+const lgbtqToolkit = {
+  title: "Toolkit: LGBTQI+ Inclusion",
+  desc: "Faith-rooted ways to build a community where LGBTQI individuals are welcomed, valued, and safe to be themselves.",
+  image: imageLGBTQ,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Welcomes All",
+      desc: "Creates an environment where LGBTQI individuals know they belong without judgement.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Strengthens Community",
+      desc: "Shows your group lives out faith values of love and respect.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Shares Stories and Support",
+      desc: "Equips you with language, scripture, and actions to be visibly inclusive.",
       icon: <CursorArrowRaysIcon />,
     },
   ],
 };
 
-const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
-  image: benefitTwoImg,
+const immigrantsToolkit = {
+  title: "Toolkit: Welcoming Immigrants, Refugees, & Asylum Seekers",
+  desc: "Scripture-inspired guidance to welcome newcomers, offer hospitality, and advocate for justice and safety for all.",
+  image: imageImmigrants,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Welcomes the Stranger",
+      desc: "Practical steps to make immigrants, refugees, or asylum seekers feel safe and supported.",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Celebrates Diversity",
+      desc: "Enriches your community through interfaith and intercultural connection.",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "Connects to Tradition",
+      desc: "Draws on scripture and teachings about hospitality and justice for all.",
       icon: <SunIcon />,
     },
   ],
 };
 
 
-export {womensHealthToolkit, economicJusticeToolkit, benefitOne, benefitTwo};
+export {immigrantsToolkit, envrironmentToolkit, womensHealthToolkit, economicJusticeToolkit, immigrantsToolkit};
