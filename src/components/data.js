@@ -33,7 +33,7 @@ const womensHealthBenefits = {
   bullets: [
     {
       title: "Keeps Women Safe",
-      desc: "Ensures women get emergency medical care—fast, with no delays."
+      desc: "Ensures women get emergency medical care—fast, with no delays.",
       icon: <ShieldCheckIcon />,
     },
     {
