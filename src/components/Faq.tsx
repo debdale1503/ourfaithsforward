@@ -36,21 +36,23 @@ export const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "Who is Our Faiths Forward for?",
+    answer: "Anyone who wants to put faith into real-world action—no matter your background, tradition, or doubts. We welcome individuals, congregations, and communities of every kind.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "Can I use the toolkit in my own congregation or community group?",
+    answer: "Absolutely! All resources are free to use, adapt, and share with your faith community, social group, or advocacy team.",
   },
   {
-    question: "What is your refund policy? ",
-    answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+    question: "Do I need to belong to a specific religion?",
+    answer: "No. Our Faiths Forward is intentionally interfaith and open to people of any (or no) tradition who care about justice, dignity, and inclusion.",
   },
   {
-    question: "Do you offer technical support? ",
-    answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+    question: "How can I share my story or an event our group organized?",
+    answer: "We’d love to hear it! Use the contact form or email us. Your story might inspire and help others to act.",
+  },
+  {
+    question: "Will you offer support if I have questions about using the toolkit?",
+    answer: "We’ll do our best to help, but our capacity is limited. If you’d like to volunteer to support the toolkit or contribute your own resources, please fill out the contact form—we’d love your help!",
   },
 ];
