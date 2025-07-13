@@ -39,7 +39,7 @@ export const Navbar = () => {
               href="https://toolkit.ourfaithsforward.com"
               className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5"
             >
-              Explore Toolkit
+              Explore Toolkits
             </Link>
           </div>
         </div>
