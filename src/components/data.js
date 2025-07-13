@@ -5,8 +5,6 @@ import {
   DevicePhoneMobileIcon,
   AdjustmentsHorizontalIcon,
   SunIcon,
-} from "@heroicons/react/24/solid";
-import {
   HeartIcon,
   ShieldCheckIcon,
   UserGroupIcon,
@@ -18,8 +16,6 @@ import {
   LeafIcon,
   HandThumbUpIcon,
   ChartBarIcon,
-} from "@heroicons/react/24/solid";
-import { 
   BanknotesIcon, 
   HomeModernIcon, 
   ChartBarIcon 
