@@ -14,7 +14,7 @@ export const Hero = () => {
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
               Where real faith means real action.  
               Join us as we unite people of all backgrounds to protect women’s health, welcome immigrants, uplift LGBTQI voices, stand up for economic dignity, and care for our planet.  
-              If you want your faith to mean more—this is your movement.
+              If you want your faith to mean more: this is your movement.
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
