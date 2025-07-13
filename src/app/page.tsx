@@ -24,7 +24,8 @@ export default function Home() {
 
       {/* BENEFITS */}
       
-      <Benefits imgPos="right" data={womensHealthBenefits} />
+      <Benefits imgPos="right" data={womensHealthToolkit} />
+      <Benefits data={economicJusticeToolkit} />
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
 
