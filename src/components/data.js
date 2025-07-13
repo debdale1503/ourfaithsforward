@@ -6,11 +6,6 @@ import {
   AdjustmentsHorizontalIcon,
   SunIcon,
 } from "@heroicons/react/24/solid";
-
-import benefitOneImg from "../../public/img/benefit-one.png";
-import benefitTwoImg from "../../public/img/benefit-two.png";
-import imageWomensHealth from "../../public/img/benefit-two.png";
-
 import {
   HeartIcon,
   ShieldCheckIcon,
@@ -24,15 +19,25 @@ import {
   HandThumbUpIcon,
   ChartBarIcon,
 } from "@heroicons/react/24/solid";
+import { 
+  BanknotesIcon, 
+  HomeModernIcon, 
+  ChartBarIcon 
+} from "@heroicons/react/24/solid";
+
+import benefitOneImg from "../../public/img/benefit-one.png";
+import benefitTwoImg from "../../public/img/benefit-two.png";
+import imageWomensHealth from "../../public/img/benefit-two.png";
+import imageEconomicJustice from "../../public/img/benefit-one.png";
 
 // Example for Women’s Health
 const womensHealthBenefits = {
-  title: "Womens Health & Safety",
+  title: "Toolkit: Women's Health",
   desc: "Why focusing on women’s health & safety matters for your community.",
   image: imageWomensHealth,
   bullets: [
     {
-      title: "Keeps Women Safe",
+      title: "Keep Women Safe",
       desc: "Ensures women get emergency medical care—fast, with no delays.",
       icon: <ShieldCheckIcon />,
     },
@@ -45,6 +50,31 @@ const womensHealthBenefits = {
       title: "Grounded in Faith",
       desc: "Helps you advocate using principles and texts shared across faiths.",
       icon: <HeartIcon />,
+    },
+  ],
+};
+
+import imageEconomicJustice from "../../public/img/benefits-economic.png"; // Use your actual image path
+
+const economicJusticeBenefits = {
+  title: "How This Helps",
+  desc: "Why economic justice matters for your community.",
+  image: imageEconomicJustice,
+  bullets: [
+    {
+      title: "Builds Stability",
+      desc: "Helps ensure everyone—seniors, families, workers—can meet their basic needs.",
+      icon: <HomeModernIcon />,
+    },
+    {
+      title: "Puts Faith Into Action",
+      desc: "Connects your values to real-life support for people facing economic hardship.",
+      icon: <BanknotesIcon />,
+    },
+    {
+      title: "Grows Opportunity",
+      desc: "Guides your group to take practical steps like food drives, resource sharing, and job support.",
+      icon: <ChartBarIcon />,
     },
   ],
 };
