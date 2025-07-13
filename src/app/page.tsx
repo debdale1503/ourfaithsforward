@@ -6,7 +6,7 @@ import { Video } from "../components/Video";
 import { Testimonials } from "../components/Testimonials";
 import { Faq } from "../components/Faq";
 import { Cta } from "../components/Cta";
-import {immigrantsToolkit, envrironmentToolkit, womensHealthToolkit, economicJusticeToolkit, lgbtqToolkit} from "../components/data";
+import {immigrantsToolkit, environmentToolkit, womensHealthToolkit, economicJusticeToolkit, lgbtqToolkit} from "../components/data";
 
 export default function Home() {
   return (
@@ -23,11 +23,11 @@ export default function Home() {
       </SectionTitle>
 
       {/* BENEFITS */}
-      
+      <Benefits data={economicJusticeToolkit} />   
       <Benefits imgPos="right" data={womensHealthToolkit} />
-      <Benefits data={economicJusticeToolkit} />
-      <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
+      <Benefits data={lgbtqToolkit} />
+      <Benefits imgPos="right" data={immigrantsToolkit} />
+      <Benefits data={environmentToolkit} />
 
       {/* Future VIDEO/ABOUT SECTION 
       <SectionTitle
