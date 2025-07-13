@@ -6,7 +6,7 @@ import { Video } from "../components/Video";
 import { Testimonials } from "../components/Testimonials";
 import { Faq } from "../components/Faq";
 import { Cta } from "../components/Cta";
-import {immigrantsToolkit, envrironmentToolkit, womensHealthToolkit, economicJusticeToolkit, immigrantsToolkit} from "../components/data";
+import {immigrantsToolkit, envrironmentToolkit, womensHealthToolkit, economicJusticeToolkit, lgbtqToolkit} from "../components/data";
 
 export default function Home() {
   return (
