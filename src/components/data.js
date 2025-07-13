@@ -27,23 +27,23 @@ import {
 
 // Example for Women’s Health
 const womensHealthBenefits = {
-  title: "How This Helps",
+  title: "Womens Health & Safety",
   desc: "Why focusing on women’s health & safety matters for your community.",
   image: imageWomensHealth,
   bullets: [
     {
       title: "Keeps Women Safe",
-      desc: "Provides actions and talking points for urgent care in crisis.",
+      desc: "Ensures women get emergency medical care—fast, with no delays."
       icon: <ShieldCheckIcon />,
     },
     {
       title: "Unites the Community",
-      desc: "Brings all voices together around compassion and care.",
+      desc: "Brings voices together around compassion and care.",
       icon: <UserGroupIcon />,
     },
     {
       title: "Grounded in Faith",
-      desc: "Faith-rooted language for effective advocacy.",
+      desc: "Helps you advocate using principles and texts shared across faiths.",
       icon: <HeartIcon />,
     },
   ],
