@@ -21,9 +21,9 @@ export const Navbar = () => {
             <span>
               <Image
                 src="/img/logo.svg"
-                width="32"
+                width="100"
                 alt="Our Faiths Forward"
-                height="32"
+                height="100"
                 className="w-8"
               />
             </span>
